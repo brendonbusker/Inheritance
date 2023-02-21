@@ -7,8 +7,8 @@ class Person:
 
 
     def print_person(self):
-        personInfo = print(self.__name, self.__address, self.__phone)
-        return personInfo
+        print(self.__name, self.__address, self.__phone)
+
 
     
 class Customer(Person):
@@ -20,6 +20,5 @@ class Customer(Person):
         self.__mail_list = mail_list
 
     def print_person(self):
-        custInfo = print(self.__name, self.__address, self.__phone, self.__cust_num, self.__mail_list)
-        return custInfo
+        print(self.__name, self.__address, self.__phone, self.__cust_num, self.__mail_list)
 
