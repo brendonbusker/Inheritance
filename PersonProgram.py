@@ -1,8 +1,8 @@
 import PersonClass as p
 
-jj = p.Person("jj", "69 poop street", "420-699-6969")
-zane = p.Customer("zane", "420 weed street", "420-420-4201", 12, True)
+jj = p.Person("jj", "321 demo street", "420-699-6969")
+zane = p.Customer("zane", "123 test street", "420-420-4201", 12, True)
 
 
-jj.print_person()
-zane.print_person()
+print(jj.print_person())
+print(zane.print_person())
