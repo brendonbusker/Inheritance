@@ -20,5 +20,4 @@ class Customer(Person):
         self.__mail_list = mail_list
 
     def print_person(self):
-        #return f"Name: {self.__name} Address: {self.__address} Phone: {self.__phone} Cust Num: {self.__cust_num} Mail List: {self.__mail_list}"
         return f"{Person.print_person(self)}, Cust Num: {self.__cust_num}, Mail List: {self.__mail_list}"
